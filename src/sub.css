@@ -99,3 +99,42 @@ button:hover{
     margin-left: 160px;
     margin-right: 80px;
 }
+.background {
+    background-color:#9EDFE3;
+    width: 747px;
+    height: 514px;
+    border-radius: 5px;
+    position: absolute;
+    left:359px;
+    top:280px;
+}
+.backToMenu {
+    position: absolute;
+    width:300px;
+    height:70px;
+    left:247px;
+    top:404px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 10px 10px;
+    gap:10px;
+}
+.resultText {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #f7f7f7;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 10px;
+    position: absolute;
+    width: 225px;
+    height: 80px;
+    left: 261px;
+    top:34px;
+    background: #fff;
+    border-radius: 20px;
+}
