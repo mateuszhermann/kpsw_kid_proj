@@ -29,11 +29,13 @@ main{
   border-radius: 10px; 
   justify-content: center;
   align-items: center;
+  
 }
 .headText{
   font-weight: 400;
   font-size: 96px;
   color: #FE7FEC;
+
 }
 .topMenu ,.bottomMenu{
   display: flex;
