@@ -28,7 +28,13 @@ function next(){
     }
     console.log("good"+good+"bad"+bad);
     number++
-    set()
+    if(number<=5){
+        set();
+    }else{
+        var score={'good':good, 'bad':bad};
+        localStorage.setItem('score',JSON.stringify(score));
+        window.location.replace('./koniecGry.html')
+    }
 }
 
 
