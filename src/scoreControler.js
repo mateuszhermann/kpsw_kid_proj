@@ -1,6 +1,8 @@
 
 window.onload=function(){
-    var score = localStorage.getItem("score");
+    var score = JSON.parse(localStorage.getItem("score"));
     var good = score["good"];
-    console.log(score.valueOf(good));
+    var bad = score['bad'];
+    localStorage.removeItem('score'); 
+    console.log(bad);
 }
