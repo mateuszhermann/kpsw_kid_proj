@@ -64,10 +64,20 @@ a:hover{
 .cat{
   position: absolute;
   top: 425px;
-  left: 640px;
+  left: 645px;
 }
 .rubbit{
   position: absolute;
   top: 425px;
-  right: 627px;
+  right: 625px;
+}
+.panda{
+  position: absolute;
+  bottom: 450px;
+  left: 645px;
+}
+.sheep{
+  position: absolute;
+  bottom: 450px;
+  right: 625px;
 }
