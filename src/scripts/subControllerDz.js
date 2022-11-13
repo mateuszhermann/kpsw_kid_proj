@@ -1,4 +1,5 @@
 import {randomize} from "./functions.js";
+import {close} from "./controls.js"
 var number=1;
 var a=0;
 var b=0;
@@ -33,7 +34,7 @@ function next(){
     }else{
         var score={'good':good, 'bad':bad};
         localStorage.setItem('score',JSON.stringify(score));
-        window.location.replace('./koniecGry.html')
+        window.location.replace('./koniecGry.html');
     }
 }
 
@@ -41,6 +42,14 @@ function next(){
 document.querySelector("#nextButton").addEventListener("click", ()=>{
     next();
 })
+
+document.querySelector("#close").addEventListener("click", ()=>{
+    close();
+})
+document.querySelector("#menu").addEventListener("click", ()=>{
+    window.location.replace('./index.html')
+})
+
 window.onload = function() {
     set()
 }
