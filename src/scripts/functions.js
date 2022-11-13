@@ -1,8 +1,8 @@
-function getRandomInt(max) {
+export function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
 
-function randoize(){
+export function randomize(){
     var x;
     do{
         x=getRandomInt(9);
@@ -10,7 +10,7 @@ function randoize(){
     return x;
 }
 
-function sum(a,b){
+export function sum(a,b){
     return a+b;
 }
 

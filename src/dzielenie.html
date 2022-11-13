@@ -9,18 +9,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap" rel="stylesheet">
     <title>➗ Dzielenie ➗</title>
+   
 </head>
 <body>
     <main>
-        <div class="question"><span class="number">x</span>/5</div>
+        <div class="question"><span id="number">x</span>/5</div>
         <div class="mid">
             <div class="aandb">
-                <span class="a">a</span> / <span class="b">b</span>=
+                <span id="a">a</span> / <span id="b">b</span>=
             </div>
             <div class="guess"> 
                 Wpisz wynik:
-                <input type="number" name="guess" id="guess">
-                <button>dalej-></button>
+                <input type="number" name="awnser" id="awnser">
+                <button id="nextButton">dalej-></button>
             </div>
         </div>
         <div class="bottom">
@@ -30,6 +31,8 @@
                 <button>koniec gry</button>
             </div>
         </div>
+        <script src="./scripts/subControllerDz.js" type="module"></script>
     </main>
 </body>
+
 </html>
