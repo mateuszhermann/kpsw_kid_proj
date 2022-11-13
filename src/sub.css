@@ -160,3 +160,21 @@ button:hover{
     line-height: 60px;
     color:#fff;
 }
+.starsTop {
+    position:absolute;
+    left: 20px;
+    top:160px;
+    color:#fff;
+    display: flex;
+    flex-direction: row;
+    font-size: 60px;;
+}
+.starsBottom {
+    position:absolute;
+    left: 20px;
+    top:260px;
+    color:#fff;
+    display: flex;
+    flex-direction: row;
+    font-size:60px;
+}
