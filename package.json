@@ -2,7 +2,7 @@
   "name": "kpsw_kid",
   "productName": "kpsw_kid",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Math app for kids",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -11,12 +11,12 @@
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
-  "keywords": [],
+  "keywords": ["education","kids","kpsw"],
   "author": {
     "name": "mateuszhermann",
     "email": "majonez15066@wp.pl"
   },
-  "license": "MIT",
+  "license": "GNU/GPL",
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0"
   },
