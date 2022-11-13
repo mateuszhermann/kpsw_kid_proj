@@ -1,6 +1,73 @@
 body {
   font-family: 'Butterfly Kids', cursive;
-  margin: auto;
-  max-width: 38rem;
-  padding: 2rem;
+  background-image: url(./resources/bg.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+main{
+  margin-top: 150px;
+  background-color: #FEF5FF;
+  display: flex;
+  width: 658px;
+  height: 636px;
+  padding: 70px, 60px, 70px, 60px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.buttonBox{
+  display: flex;
+  flex-direction: column;
+  width: 394px;
+  height: 271px;
+  background-color: #9EDFE3;
+  border-radius: 10px; 
+  justify-content: center;
+  align-items: center;
+}
+.headText{
+  font-weight: 400;
+  font-size: 96px;
+  color: #FE7FEC;
+}
+.topMenu ,.bottomMenu{
+  display: flex;
+  flex-direction: row;
+}
+a{
+  display: inline-flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  background-color: #F7D3DF;
+  border-radius: 10px;
+  width: 96px;
+  height: 64px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+a:hover{
+  background-color: #ddc0d1;
+}
+
+.cat{
+  position: absolute;
+  top: 425px;
+  left: 640px;
+}
+.rubbit{
+  position: absolute;
+  top: 425px;
+  right: 627px;
 }
