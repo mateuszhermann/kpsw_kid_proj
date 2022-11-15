@@ -7,25 +7,40 @@
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
+    "make-mac": "electron-forge make --platform darwin",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\""
+    "lint": "echo \"No linting configured\"",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
-  "keywords": ["education","kids","kpsw"],
+  "keywords": [
+    "education",
+    "kids",
+    "kpsw"
+  ],
   "author": {
-    "name": "mateuszhermann",
+    "name": "Mateusz Hermann, Marika Kroll, Julia Błażyńska",
     "email": "majonez15066@wp.pl"
   },
   "license": "GNU/GPL",
   "dependencies": {
+    "@electron-forge/maker-pkg": "^6.0.3",
     "electron-squirrel-startup": "^1.0.0"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.1",
     "@electron-forge/maker-deb": "^6.0.1",
+    "@electron-forge/maker-dmg": "^6.0.3",
     "@electron-forge/maker-rpm": "^6.0.1",
     "@electron-forge/maker-squirrel": "^6.0.1",
     "@electron-forge/maker-zip": "^6.0.1",
-    "electron": "21.2.3"
+    "electron": "21.2.3",
+    "electron-builder": "^23.6.0"
+  },
+  "build": {
+    "appId": "com.bajt",
+    "productName": "Mathimals",
+    "target": "AppImage"
   }
 }
