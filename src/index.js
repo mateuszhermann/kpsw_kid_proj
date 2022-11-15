@@ -24,7 +24,7 @@ const createWindow = () => {
   ipcMain.on('close',()=>{
     mainWindow.close();
   })
-  //mainWindow.removeMenu()
+  mainWindow.removeMenu()
   
 };
 
