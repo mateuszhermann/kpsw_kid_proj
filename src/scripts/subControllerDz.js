@@ -44,7 +44,11 @@ document.querySelector("#nextButton").addEventListener("click", ()=>{
 })
 
 document.querySelector("#close").addEventListener("click", ()=>{
-    close();
+    if (process.platform == 'darwin'){
+        window.close()
+    }else{
+        close();
+    }
 })
 document.querySelector("#menu").addEventListener("click", ()=>{
     window.location.replace('./index.html')
@@ -52,4 +56,5 @@ document.querySelector("#menu").addEventListener("click", ()=>{
 
 window.onload = function() {
     set()
+    
 }
